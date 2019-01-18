@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+TC:200,300|Raleway:100,200,300,600');
+
+body {
+    background-color: #fff;
+    font-family: Noto Serif TC;
+}
+header {
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    display: block;
+}
+nav {
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #344152;
+    word-spacing: 30px;
+}
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
+h1 {
+    margin: 0px;
+    border: none;
+    padding: 0px;
+    font-family: Noto Serif TC;
+    font-weight: 300;
+    font-size: 45px;
+    color: #344152;
+    text-align: center;
+}
+h2 {
+    margin: 0px;
+    border: none;
+    padding-bottom: 20px;
+    color: #344152;
+    font-family: Noto Serif TC;
+    font-weight: 200;
+    font-size: 20px;
+    text-transform: lowercase;
+    text-align: center;
+}
+main {
+    background-color: #fff;
+    width: 95%;
+    display: block;
+}
+.legend {
+    font-weight: 300;
+    font-size: 12px;
+    display: inline-block;
+    justify-content: flex-end;
+    padding-top: 130px;
+    padding-left: 10px;
+    font-style: italic;
+}
+.legend p {
+    font-family: Noto Serif TC;
+    font-weight: 600;
+    font-size: 15px;
+}
+.legend a {
+    padding-left: 10px;
+}
+.legend ul {
+    padding: 0;
+    list-style-type: none;
+}
+.legend img {
+    width: 15px;
+    height: 15px; 
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+#mountain {
+    display: inline-block;
+}
+#mountain img {
+    width: 0 auto;
+    height: 470px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.calendar { 
+    padding-bottom: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+input[type=date] {
+    width: 200px;
+    height: 22px;
+    border: 1px solid #000;
+    font-family: Noto Serif TC;
+}
+input[type=submit] {
+    width: 70px;
+    height: 23px;
+    border: 1px solid #000;
+    font-family: Noto Serif TC;
+}
+section {
+    width: 75%;
+    justify-content: flex-start;
+    height: 500px;
+    margin: 0 auto;
+}
+path { 
+    width: 10%;
+    height: 400px;
+}
+path:nth-of-type(1){
+    fill: white; /* CSS to control the mountain top */
+  }
+  path:nth-of-type(2){
+    fill: #C1CDCD; /* CSS to control the mountain body */
+  } 
+#layer_1 {
+    padding: 10px 10px 10px 10px;
+}
+#mountain {
+    padding-top: 10%;
+    padding-left: 10%;
+}
+/* .cloud img {
+    width: 30%;
+    display: inline-block;
+} */
+.aside {
+    position: relative;
+    height: 500px;
+    border: 2px solid #000;
+}
+span #mood {
+    font-weight: bold;
+    text-decoration: underline;
+}
+h3 {
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+    color: #344152;
+}
+.weather {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.sun {
+    display: none;
+    position: absolute;
+    top: 15px;
+    left: 330px;
+}
+.cloud2 {
+    display: none;
+    position: absolute;
+    width: 60%;
+    top: 40px;
+    left: 300px;
+}
+.cloud2 img {
+    width: 300px;
+}
+.cloud {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 650px;
+}
+.rain {
+    display: none;
+    position: absolute;
+    top: 220px;
+    left: 400px;
+}
+.flowers {
+    display: none;
+    position: absolute;
+    top: 40px;
+}
+.flowers img {
+    width: 600px;
+    padding-top: 182px;
+    padding-left: 400px;
+}
